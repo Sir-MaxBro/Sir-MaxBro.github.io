@@ -6,6 +6,11 @@ body {
     letter-spacing: 1px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
     font-weight: 400;
+    overflow: hidden;
+}
+
+body.load {
+    overflow: auto;
 }
 
 img {
