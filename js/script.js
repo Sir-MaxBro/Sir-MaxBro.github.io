@@ -21,5 +21,5 @@ document.body.onload = function() {
             preloader.classList.add('done');
         }
     }, 500);
-    docyment.body.classList.add('load');
+    document.body.classList.add('load');
 };
