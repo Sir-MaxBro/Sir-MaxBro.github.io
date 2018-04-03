@@ -10,7 +10,7 @@ body {
 }
 
 body.load {
-    overflow: auto;
+    overflow-y: visible;
 }
 
 img {
