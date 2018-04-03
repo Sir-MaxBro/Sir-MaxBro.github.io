@@ -124,7 +124,7 @@ textarea {
 }
 
 .block-3.horizontal {
-    width: 50%;
+    width: 50% !important;
 }
 
 .block-4 {
@@ -198,6 +198,10 @@ section.about .text,
 section.services .text {
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+
+section.services .img {
+    margin-bottom: 15px;
 }
 
 
@@ -610,6 +614,12 @@ footer .copyright {
 
 
 /* Small Devices, Tablets */
+
+@media only screen and (max-width: 711px) {
+    .blocks .block-3 {
+        width: 32.333%;
+    }
+}
 
 @media only screen and (max-width: 767px) {
     section.about .certificate {
