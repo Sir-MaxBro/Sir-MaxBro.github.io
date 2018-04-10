@@ -37,7 +37,10 @@
             <nav>
                 <div class="container">
                     <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="">Днепр-Лифт</a>
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="">
+                            <span class="logo-text">Днепр-Лифт</span>
+                        </a>
                     </div>
                     <div class="menu">
                         <a href="#" id="touch-menu" class="menu-bar" onclick="slideMenu()">
@@ -80,15 +83,15 @@
             <div class="block-6">
                 <form action="">
                     <div class="form-field">
-                        <span>Имя*</span>
-                        <input type="text" name="name" required="required">
+                        <span><span class="staring">*</span>Имя</span>
+                        <input type="text" name="name" required="required" autocomplete="name">
                     </div>
                     <div class="form-field">
-                        <span>Email*</span>
-                        <input type="text" name="email" required="required">
+                        <span><span class="staring">*</span>Email</span>
+                        <input type="text" name="email" required="required" autocomplete="email">
                     </div>
                     <div class="form-field">
-                        <span>Message</span>
+                        <span><span class="staring">*</span>Сообщение</span>
                         <textarea name="message" cols="30" rows="10" required="required"></textarea>
                     </div>
                     <input type="submit" value="Отправить">
